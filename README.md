@@ -28,3 +28,9 @@ Complexity Level | Pooled Characters
 low | lowercase letters, numbers
 medium | lowercase letters, numbers, uppercase letters
 high | lowercase letters, numbers, uppercase letters, symbols
+
+---
+
+## Releases
+
+- [(v1.0.0) Bash-Powered Password Generator in PHP](https://github.com/devmegan/password-generator/releases/tag/v1.0.0)
