@@ -1,10 +1,8 @@
 # Password Generator
 
+<img src="readme/generate.gif" alt="screen recording of generating passwords using bash script" />
+
 Two PHP password generators, one functional, one class-based. Both generate passwords of a length and complexity set by user input.
-
-## functional-generate.php
-
-`$ php functional-generate.php <length:int> <complexity:str[low|medium|high]>`
 
 ## oop-generate.php
 
@@ -20,6 +18,10 @@ $ php -a
 > $password = new PasswordGenerator(<length:int>, <complexity:str[low|medium|high]>);
 > echo $password;
 ```
+
+## functional-generate.php
+
+`$ php functional-generate.php <length:int> <complexity:str[low|medium|high]>`
 
 ## Complexity
 
