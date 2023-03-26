@@ -37,7 +37,7 @@ For overkill and practice, I dockerized the scripts: [password-generator image o
 
 ### Use Image
 
-`$ docker run devmegan/password-generator:1.0.0 <length:int> <complexity:str[low|medium|high]>`
+`$ docker run devmegan/password-generator:latest <length:int> <complexity:str[low|medium|high]>`
 
 ### Use Dockerfile
 
