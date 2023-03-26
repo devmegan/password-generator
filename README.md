@@ -31,6 +31,24 @@ $ php -a
 > echo $password;
 ```
 
+## Docker
+
+For overkill and practice, I dockerized the scripts: [password-generator image on dockerhub](https://hub.docker.com/r/devmegan/password-generator).
+
+### Use Image
+
+`$ docker run devmegan/password-generator:1.0.0 <length:int> <complexity:str[low|medium|high]>`
+
+### Use Dockerfile
+
+#### Build
+
+`docker image build -t password-generator:latest .`
+
+#### Run
+
+`docker run --rm password-generator:latest <length:int> <complexity:str[low|medium|high]>`
+
 ## functional-generate.php
 
 `$ php functional-generate.php <length:int> <complexity:str[low|medium|high]>`
