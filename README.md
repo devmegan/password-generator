@@ -15,6 +15,7 @@ Two PHP password generators, one functional, one class-based. Both generate pass
 - [functional-generate.php](#functional-generatephp)
 - [Complexity](#complexity)
 - [Releases](#releases)
+  - [v1](#v1)
 
 ## oop-generate.php
 
@@ -65,4 +66,9 @@ high | lowercase letters, numbers, uppercase letters, symbols
 
 ## Releases
 
-- [(v1.0.0) Bash-Powered Password Generator in PHP](https://github.com/devmegan/password-generator/releases/tag/v1.0.0)
+For full log of changes and releases, see [changelog](/CHANEGELOG.md).
+
+### v1
+
+- [v1.1.0 Bash Arg Error Handling](https://github.com/devmegan/password-generator/releases/tag/v.1.1.0) (23-03-26)
+- [v1.0.0 Bash-Powered Password Generator in PHP](https://github.com/devmegan/password-generator/releases/tag/v1.0.0) (23-03-25)
