@@ -19,9 +19,13 @@ Two PHP password generators, one functional, one class-based. Both generate pass
 
 ## oop-generate.php
 
-I wrote this [bash script](/generate.sh) to generate a password from the `PasswordGenerator` class:
+There is a [bash script](/generate.sh) to generate a password from the `PasswordGenerator` class:
 
 `$ ./generate.sh <length:int> <complexity:str[low|medium|high]>`
+
+The bash script has some command arg error handling built in:
+
+<img src="readme/generate-error-handling.gif" alt="screen recording of bash script handling length arg and complexity arg errors" />
 
 Alternatively, to generate the password in a php shell:
 

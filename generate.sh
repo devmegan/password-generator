@@ -9,7 +9,7 @@ if [[ $# -lt 2 ]]; then
 fi
 
 if [[ ! $1 =~ ^[0-9]+$ || ! $2 =~ ^(low|medium|high)$ ]]; then
-    echo "./generate.sh requires arguments in the following format arguments"
+    echo "./generate.sh requires arguments in the following format"
     echo
     echo "Usage: $0 <length:int> <characters:str[low|medium|high]>"
     echo
