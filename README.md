@@ -4,6 +4,18 @@
 
 Two PHP password generators, one functional, one class-based. Both generate passwords of a length and complexity set by user input.
 
+## TOC
+
+- [oop-generate.php](#oop-generatephp)
+- [Docker](#docker)
+  - [Use Image](#use-image)
+  - [Use Dockerfile](#use-dockerfile)
+    - [Build](#build)
+    - [Run](#run)
+- [functional-generate.php](#functional-generatephp)
+- [Complexity](#complexity)
+- [Releases](#releases)
+
 ## oop-generate.php
 
 I wrote this [bash script](/generate.sh) to generate a password from the `PasswordGenerator` class:
